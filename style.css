@@ -1,0 +1,130 @@
+:root {
+  --bc: #000000;
+  --cbc: rgb(0, 255, 242);
+  --txc: #303030;
+  --intxc: rgb(46, 154, 161);
+  --inboc: rgb(33, 146, 140);
+  --buc: rgb(0, 78, 114);
+  --butxc: #ffffff;
+}
+body,
+html {
+  height: 100%;
+}
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  /* background-color: var(--bc); */
+  /* background-image: linear-gradient(to left top, #0188b7, #00a9c7, #00c6af, #00dd76, #a8eb12); */
+  font-size: 15px;
+  background-repeat: no-repeat;
+  /* line-height: 1.5; */
+  padding: 0;
+  margin: 0;
+  background-image: url("Old2-696x384.jpg");
+
+  height: 90%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+* {
+  box-sizing: border-box;
+}
+.container {
+  width: 520px;
+  height: auto;
+  margin: 150px auto;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.19);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.5px);
+  -webkit-backdrop-filter: blur(6.5px);
+  border: 1px solid rgba(255, 255, 255, 0.57);
+}
+.base {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  display: block;
+  float: none;
+}
+.block {
+  width: 135px;
+  padding: 5px 20px;
+  margin-left: 20px;
+  display: inline-block;
+  /* float: left; */
+}
+.base h4 {
+  font-size: 26px;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: normal;
+  margin-top: 0px;
+  border-bottom: 5px solid #ffffff;
+  /* box-shadow: 0px 2px #252525;
+  background: rgb(0, 119, 128); */
+  font-size: 34px;
+  color: var(--txc);
+}
+.title {
+  font-size: 20px;
+  text-align: left;
+  font-family: sans-serif;
+  font-weight: normal;
+  line-height: 0.5;
+  letter-spacing: 0.5px;
+  word-spacing: 2.7px;
+  color: var(--txc);
+}
+input[type="text"] {
+  width: 140px;
+  margin: auto;
+  outline: none;
+  min-height: 50px;
+  border: 2px solid var(--intxc);
+  padding: 12px;
+  background-color: #ffffff;
+  border-radius: 2px;
+  color: var(--intxc);
+  font-size: 17px;
+}
+input[type="text"]:focus {
+  background-color: #6dfaff;
+  border: 2px solid var(--inboc);
+  outline: none;
+}
+input[type="button"] {
+  width: 150px;
+  margin-left: 35%;
+  margin-top: 40px;
+  outline: none;
+  border: none;
+  border-radius: 2px;
+  background-color: var(--buc);
+  color: #ffffff;
+  padding: 14px 16px;
+  text-align: center;
+  font-size: 16px;
+}
+input[type="button"]:hover {
+  background-color: var(--inboc);
+  color: #000000;
+}
+#age {
+  display: block;
+  margin: 10px;
+  margin-top: 35px;
+  padding: 10px;
+  padding-bottom: 20px;
+  overflow: hidden;
+  font-family: verdana;
+  font-size: 23px;
+  font-weight: normal;
+  line-height: 1.5;
+  word-spacing: 2.7px;
+  color: var(--txc);
+}
